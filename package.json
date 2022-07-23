@@ -1,0 +1,11 @@
+{
+  "name": "CardUi",
+  "version": "1.0.0",
+  "description": "Utilisation de Sass , de Flexbox et css grid",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Mike Leman",
+  "license": "ISC"
+}

@@ -1,0 +1,54 @@
+@import "./utils/variables";
+@import "./base/base";
+@import "./components/button";
+
+
+body {
+    background: $backgroundBody;
+    color: $colorText;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 10%);
+}
+.title-card{
+    color: $colorTitle;
+}
+
+.card{
+    grid-column: 2;
+    grid-row: 3;
+    box-shadow: 0 6px 7px rgba($color: #000000, $alpha: 0.25);
+    background-color: $backgroundCard;
+    height: 700px;
+    width: 598px;
+    .bg-card-img{
+        height: 336px;
+    }
+    .profil{
+        display: flex;
+        align-items: center;
+        flex-wrap: row wrap;
+        
+        .profil-img{
+            height: 70px;
+            border-radius: 50%;
+            padding: 20px;
+            justify-content: center;
+            
+        }
+        .profil-text{
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+    .align-btn{
+        margin-left: 44px;
+    }
+    
+    .card-btn{
+        color: $colorTextBtn;
+    }
+  
+}

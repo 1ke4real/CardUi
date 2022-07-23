@@ -1,0 +1,78 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.title-card {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.secondary-text {
+  font-weight: normal;
+}
+
+.content-card {
+  line-height: 25px;
+  margin: 44px;
+}
+
+.card-btn {
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 550;
+  margin-right: 60px;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(251, 194, 235) 0%, rgb(212, 194, 236) 52%, rgb(166, 193, 238) 100%);
+  color: #8F8F8F;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 10%);
+}
+
+.title-card {
+  color: black;
+}
+
+.card {
+  grid-column: 2;
+  grid-row: 3;
+  box-shadow: 0 6px 7px rgba(0, 0, 0, 0.25);
+  background-color: #FFF;
+  height: 700px;
+  width: 598px;
+}
+.card .bg-card-img {
+  height: 336px;
+}
+.card .profil {
+  display: flex;
+  align-items: center;
+  flex-wrap: row wrap;
+}
+.card .profil .profil-img {
+  height: 70px;
+  border-radius: 50%;
+  padding: 20px;
+  justify-content: center;
+}
+.card .profil .profil-text {
+  display: flex;
+  flex-direction: column;
+}
+.card .align-btn {
+  margin-left: 44px;
+}
+.card .card-btn {
+  color: #79069B;
+}
+
+/*# sourceMappingURL=style.css.map */
